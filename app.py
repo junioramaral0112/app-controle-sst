@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
-import os
-import base64
-from datetime import datetime, timedelta
+from datetime import datetime
+from supabase import create_client, Client
+import numpy as np
 
-# --- CONFIGURAÇÕES GERAIS E INICIALIZAÇÃO ---
+# --- 1. CONFIGURAÇÕES GERAIS E CONEXÃO SUPABASE ---
 
-st.set_page_config(layout="wide", page_title="SST Control")
+st.set_page_config(layout="wide", page_title="SST Control com Supabase")
 
 # --- BLOCO DE ESTILO CSS (FUNDO CINZA) ---
 
