@@ -1,0 +1,6 @@
+streamlit
+pandas
+openpyxl
+st-gsheets-connection
+numpy
+supabase
