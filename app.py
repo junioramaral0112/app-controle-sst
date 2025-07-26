@@ -5,7 +5,7 @@ from supabase import create_client, Client
 import numpy as np
 
 # --- 1. CONFIGURAÇÕES GERAIS E CONEXÃO SUPABASE ---
-st.set_page_config(layout="wide", page_title="SST Control com Supabase")
+st.set_page_config(layout="wide", page_title="SST Controle Terceiros com Supabase")
 
 # --- ESTILO CSS ---
 st.markdown("""
