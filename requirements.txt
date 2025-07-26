@@ -4,3 +4,4 @@ openpyxl
 st-gsheets-connection
 numpy
 supabase
+matplotlib
